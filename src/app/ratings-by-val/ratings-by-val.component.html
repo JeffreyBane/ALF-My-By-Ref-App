@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class = "col">Knowledge Rating</div>
+        <div class = "col">{{ knowledgePreviousRating }}</div>
+        <div class = "col">{{ knowledgeCurrentRating }}</div>
+        <div class = "col">
+            <fa-icon [icon]="faKnowledge" class="{{ knowledgeClass }}"></fa-icon>
+        </div>
+    </div>
+    <div class="row">
+        <div class = "col">Courtesy Rating</div>
+        <div class = "col">{{ courtesyPreviousRating }}</div>
+        <div class = "col">{{ courtesyCurrentRating }}</div>
+        <div class = "col">
+            <fa-icon [icon]="faCourtesy" class="{{ courtesyClass }}"></fa-icon>
+        </div>
+    </div>
+    <div class="row">
+        <div class = "col">Speed Rating</div>
+        <div class = "col">{{ speedPreviousRating }}</div>
+        <div class = "col">{{ speedCurrentRating }}</div>
+        <div class = "col">
+            <fa-icon [icon]="faSpeed" class="{{ speedClass }}"></fa-icon>
+        </div>
+    </div>
+</div>
